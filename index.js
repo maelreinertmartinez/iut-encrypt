@@ -1,9 +1,9 @@
 'use strict';
 
-const encrypt = require('encrypt');
+const Crypto = require('crypto');
 
 module.exports = {
     sha1(text) {
-        return encrypt.sha1(text);
+        return Crypto.createHash('sha1').digest('hex');
     }
 }

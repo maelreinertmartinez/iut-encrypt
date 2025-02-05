@@ -1,13 +1,22 @@
 {
-  "name": "iut-encrypt",
+  "name": "@maelreinertmartinez/iut-encrypt",
   "version": "1.0.0",
-  "description": "",
+  "description": "dazdaz",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maelreinertmartinez/iut-encrypt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maelreinertmartinez/iut-encrypt/issues"
+  },
+  "homepage": "https://github.com/maelreinertmartinez/iut-encrypt#readme",
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "encrypt": "^0.0.1"
+    "crypto": "^1.0.1"
   }
 }
